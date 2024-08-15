@@ -76,27 +76,7 @@ The application has the following API endpoints:
 
 The application uses Redux to manage the state of the todos. The state is stored in the `state` directory and is organized into the following subdirectories:
 
-* `actions`: This directory contains the Redux actions.
-* `reducers`: This directory contains the Redux reducers.
-
-**Components**
-
-The application has the following components:
-
-* `TodoList`: A list of todos.
-* `TodoItem`: A single todo item.
-* `TodoForm`: A form to create a new todo.
-
 **Styles**
 
-The application uses CSS to style the components. The styles are located in the `styles` directory.
+The application uses tailwindcss to style the components. 
 
-**Testing**
-
-The application has unit tests and integration tests. The tests are located in the `tests` directory.
-
-**Deployment**
-
-The application is deployed to a production environment using a CI/CD pipeline. The pipeline is configured to build and deploy the application to a cloud provider.
-
-I hope this documentation helps you understand the project better. If you have any questions or need further clarification, please don't hesitate to ask.
